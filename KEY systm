@@ -389,7 +389,7 @@ task.spawn(function()
         else
             print("Please enter a key first.")
         end
-    end)
+    end
 end)
     
     Exit.MouseButton1Down:Connect(function()
