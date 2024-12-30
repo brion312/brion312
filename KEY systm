@@ -381,7 +381,7 @@ task.spawn(function()
             if isValid then
                 print("Key verified! Loading script...")
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/brion312/gui/refs/heads/master/rich", true))()
-                if ScreenGui then
+                if isValid then
                 ScreenGui.Destroy()
             else
                 print("Invalid key. Please try again.")
